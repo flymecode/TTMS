@@ -1,0 +1,160 @@
+*{
+			margin: 0;
+			padding: 0;
+		}
+		input{
+			width: 180px;
+			height: 50px;
+			margin-top: 50px;
+			margin-left: 60px;
+			border-radius: 30px;
+			cursor: pointer;
+			color: white;
+			background-color: red;
+		}
+		#box{
+			width: 1170px;
+			height: 700px;
+			margin: 0 auto;
+			margin-top: 20px;
+			border: 1px solid rgb(230,230,230);
+			box-shadow: 1px 1px 2px rgb(230,230,230);
+		}
+		.conten{
+			width: 800px;
+			height: 100%;
+			float: left;
+		}
+		.list{
+			width: 100%;
+			height: 140px;
+		}
+		.list span{
+			display: inline-block;
+			width: 160px;
+			height: 50px;
+			margin-left: 20px;
+			margin-top: 60px;
+			color: rgb(102,127,172);
+
+		}
+		
+
+		.screen{
+			width: 100%;
+			height: 100px;
+			text-align: center;
+		}
+		.screen span{
+			display: block;
+			margin-left: -70px;
+			color: rgb(151,102,102);
+		}
+		.obody{
+			width: 100%;
+			height: 460px;
+			position: relative;
+		}
+		#seat{
+			float: right;
+			width:500px;
+			margin-top: 30px;
+			margin-right: 160px;
+			overflow: hidden;
+		}
+		#seat img{
+			float:left;
+			display: block;
+			margin:6px 10px;
+			width:30px;
+			height:30px;
+		}
+		/*.obody td{
+			width: 100px;
+			height: 40px;
+			background-image: url(TTMS/img/chair/white.png);
+			background-repeat: no-repeat;
+			background-size: 30px;
+
+		}*/
+		.obody ul{
+			list-style-type: none;
+			position: absolute;
+			margin-top: 30px;
+			margin-left: 30px;
+		}
+		.obody ul li{
+			width: 40px;
+			height: 40px;
+			margin-top: 2px;
+			text-align: center;
+			line-height: 40px;
+			color: rgb(153,153,153);
+		}
+		
+		.about{
+			float: right;
+			width: 350px;
+			height: 100%;
+			padding-left: 20px;
+			background-color: rgb(249,249,249);
+		}
+		.more{
+			height: 200px;
+			width: 100%;
+			
+		}
+		.explain{
+			height: 150px;
+			width: 100%;
+			
+		}
+		.price{
+			width: 100%;
+			border-bottom: 1px dashed rgb(153,153,153);
+			border-top: 1px dashed rgb(153,153,153);
+		}
+		.pic{
+			float: left;
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+		.topic{
+			width: 185px;
+			height: 150px;
+			float: right;
+			margin-top: 20px;
+		}
+		.topic span{
+			color: rgb(153,153,153);
+		}
+		.text {
+			margin-top: 20px;
+			font-size: 11px;
+		}
+		.explain span{
+			color: rgb(153,153,153);
+		}
+		.explain span.time{
+			color: red;
+		}
+		
+		.price span{
+			color: rgb(153,153,153);
+		}
+		.price span.time{
+			color: red;
+		}
+		.sum{
+			margin-top: 90px;
+		}
+		.price .sum span.red{
+			color: red;
+			font-size: 30px;
+		}
+
+
+		#message{
+			width:100%;
+			overflow: hidden;
+		}

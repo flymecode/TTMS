@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="UserDaoImpl" class="com.team.dao.impl.UserDaoImpl"></bean>
+</beans>

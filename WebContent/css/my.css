@@ -1,0 +1,56 @@
+  #dong {
+				    	background: url("../img/h3.jpg");
+				    	animation-name: myfirst;
+				    	animation-duration: 12s;
+				    	/*变换时间*/
+				    	animation-delay: 2s;
+				    	/*动画开始时间*/
+				    	animation-iteration-count: infinite;
+				    	/*下一周期循环播放*/
+				    	animation-play-state: running;
+				    	/*动画开始运行*/
+				    	width: 75%;
+				    	border-top-left-radius: 10px 10px; 
+				    	border-top-right-radius: 10px 10px; 
+				    	border-bottom-right-radius: 10px 10px; 
+				    	border-bottom-left-radius: 10px 10px;
+				    }
+				    
+				    @keyframes myfirst {
+				    	0% {
+				    		background: url("../img/h3.jpg");
+				    	}
+				    	30% {
+				    		background: url("../img/pic4.jpg");
+				    	}
+				    	60% {
+				    		background: url("../img/timg.jpg");
+				    	}
+				    	100% {
+				    		background: url("../img/h3.jpg");
+				    	}
+				    }
+				    
+				    .form {
+				    	background: rgba(255, 255, 255, 0.2);
+				    	width: 400px;
+				    	margin: 120px auto;
+				    }
+				    /*阴影*/
+				    
+				    .fa {
+				    	display: inline-block;
+				    	top: 27px;
+				    	left: 6px;
+				    	position: relative;
+				    	color: #ccc;
+				    }
+				    
+				    input[type="text"],
+				    input[type="password"] {
+				    	padding-left: 26px;
+				    }
+				    
+				    .checkbox {
+				    	padding-left: 21px;
+				    }
